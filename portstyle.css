@@ -3,7 +3,7 @@
  * Created: Thursday, 24th July 2025 2:48:43 pm
  * Author: Md.Rahad (mdrahad1296@gmail.com)
  * -----
- * Last Modified: Thursday, 24th July 2025 9:03:51 pm
+ * Last Modified: Friday, 25th July 2025 2:26:28 am
  * Modified By: Md.Rahad (mdrahad1296@gmail.com)
  * -----
  * Copyright (c) 2025 Islamic University
@@ -15,6 +15,7 @@
     font-variation-settings:
         "wdth"100;
 }
+
 /*Shared class which use many times */
 .btn-primary {
     background-color: rgb(253, 110, 10);
@@ -24,26 +25,32 @@
     border-radius: 5px;
     border: none;
 }
-.text-primary{
-    color:rgb(253, 110, 10);
+
+.text-primary {
+    color: rgb(253, 110, 10);
 }
-.dark2{
+
+.dark2 {
     color: #474747;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: rgb(24, 24, 24);
 }
-.section-description{
-    font-size:18px ;
-    color:rgb(117, 117, 117);
+
+.section-description {
+    font-size: 18px;
+    color: rgb(117, 117, 117);
 
 }
-.secondary-bg{
-background-color: rgb(255, 248, 243);
+
+.secondary-bg {
+    background-color: rgb(255, 248, 243);
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
@@ -55,98 +62,184 @@ nav {
     margin: 00px 150px;
 
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-.r-color{
-    color:rgb(253, 110, 10);
+
+.r-color {
+    color: rgb(253, 110, 10);
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 51px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     font-size: 20px;
     color: rgb(71, 71, 71);
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
 
 /*header image*/
-.header{
-    background-image: url(developer.png),url(header_bg.png);
+.header {
+    background-image: url(developer.png), url(header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-color: rgb(255, 248, 243);
 }
+
 /*banner design*/
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 }
-.banner-welcome{
-color: rgb(71, 71, 71);
-font-weight: 400;
-font-size: 45px;
-margin-bottom: 100px;
-line-height: 00px;
+
+.banner-welcome {
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 100px;
+    line-height: 00px;
 
 }
-.banner-title{
+
+.banner-title {
     font-weight: 600;
     font-size: 85px;
     line-height: 00px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
 }
+
 /* Main style */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 /*about style*/
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
 }
-.about-item{
-font-size: 18px;
-color: rgb(117, 117, 117);
+
+.about-item {
+    font-size: 18px;
+    color: rgb(117, 117, 117);
 }
-.item-description{
-font-weight: bold;
+
+.item-description {
+    font-weight: bold;
 }
-.bg-wh{
+
+.bg-wh {
     background-color: white;
     border: 1px solid black;
     width: 827px;
 
 }
+
 /*skill Section*/
-.skills-container{
-display: flex;
-gap: 24px;
-}
-.skill{
-padding: 30px;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
+.skills-container {
+    display: flex;
+    gap: 24px;
 }
 
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+/*resume Section style*/
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(117, 117, 117);
+}
+
+.experience-desscription {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+resume hr {
+
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.button-margin {
+    margin-top: 40px;
+}
+
+/* Footer style*/
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer inputz[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.img-style {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+}
